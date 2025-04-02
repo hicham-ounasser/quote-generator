@@ -1,0 +1,22 @@
+.pass {
+  position: relative;
+}
+
+input {
+  display: block;
+  width: 300px;
+  padding: 10px 5px;
+  font-family: monospace;
+}
+
+button,
+i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 290px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+}

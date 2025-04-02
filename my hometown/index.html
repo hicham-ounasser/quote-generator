@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agadir, Morocco</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <header class="hero">
+      <img src="images/agadir2.jpg" alt="Agadir coast" class="hero-img" />
+      <h1>Welcome to Agadir</h1>
+      <p>Your gateway to Morocco's stunning coast</p>
+    </header>
+
+    <section class="dynamic-feature">
+      <h2>Show Your Love for Agadir</h2>
+      <button id="add-star-btn">Add a Star</button>
+      <div id="star-container"></div>
+    </section>
+    <!-- Popular Activities Section -->
+    <section class="activities">
+      <h2>Top Activities in Agadir</h2>
+      <div class="activity-container">
+        <div class="activity-card">
+          <img src="images/taghazout.webp" alt="Surfing in Agadir" />
+          <h3>Surfing</h3>
+          <p>Catch the waves at Taghazout Beach.</p>
+        </div>
+        <div class="activity-card">
+          <img src="images/agadiroufella.jpg" alt="Kasbah Oufella view" />
+          <h3>Kasbah Oufella</h3>
+          <p>Explore historic ruins with breathtaking views.</p>
+        </div>
+        <div class="activity-card">
+          <img src="images/soukelhad.jpg" alt="Souk El Had market" />
+          <h3>Souk El Had</h3>
+          <p>Shop for spices, crafts, and more at this bustling market.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+      <h2>What Visitors Say</h2>
+      <blockquote>
+        <p>
+          "Agadir is a hidden gem—breathtaking beaches and warm hospitality!"
+        </p>
+        <cite>- Sarah, UK</cite>
+      </blockquote>
+      <blockquote>
+        <p>"I fell in love with the markets and the local culture."</p>
+        <cite>- Liam, Ireland</cite>
+      </blockquote>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+      <h2>Meet Your Local Guide</h2>
+      <img
+        src="images/me.jpeg"
+        alt="Your local guide Hicham"
+        class="guide-img"
+      />
+      <p>
+        Hello! I’m Hicham, a proud local of Agadir. Have questions? Reach out to
+        me!
+      </p>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>

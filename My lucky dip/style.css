@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+h1 {
+  color: #333;
+}
+
+#numbersContainer {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.numbers,
+.star-numbers {
+  display: flex;
+  gap: 10px;
+}
+
+.number,
+.star {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.number {
+  background-color: lightgray;
+  color: black;
+}
+
+.selected {
+  background-color: blue;
+  color: white;
+}
+
+.star {
+  background-color: yellow;
+  color: black;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
